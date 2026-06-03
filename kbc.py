@@ -26,6 +26,6 @@ for i in range(3):
         print("Correct")
         score = score + 1
     else:
-        print("Wrong ")
+        print("Wrong")
 
 print("\nYour score is:", score)
