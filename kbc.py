@@ -23,9 +23,9 @@ for i in range(3):
     user = input("Enter your answer (A/B/C/D): ")
 
     if user.upper() == answers[i]:
-        print("Correct 👍")
+        print("Correct")
         score = score + 1
     else:
-        print("Wrong ❌")
+        print("Wrong ")
 
 print("\nYour score is:", score)
